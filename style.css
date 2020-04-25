@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 20px 100px;
 }
 
 .btn {
@@ -13,8 +14,12 @@
   border: 3px solid #000000;
   border-radius: 20px;
   width: fit-content;
-  padding: 5px 5px;
+  padding: 5px 55px;
   cursor: pointer;
+}
+
+.seperator {
+  width: 10px;
 }
 
 .blue {
