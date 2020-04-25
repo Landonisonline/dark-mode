@@ -2,21 +2,19 @@
 
 .content {
   font-family: Arial, sans-serif;
-}
-
-.buttons {
-  /*display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
 }
 
 .btn {
   color: #ffffff;
   font-size: 30px;
-  border: 3px solid gray;
+  border: 3px solid #000000;
   border-radius: 20px;
   width: fit-content;
   padding: 5px 5px;
+  cursor: pointer;
 }
 
 .blue {
@@ -24,9 +22,17 @@
 }
 
 .dark {
-  background-color: darkgrey;
+  background-color: #a9a9a9;
+}
+
+.dark:hover {
+  background-color: #757575;
 }
 
 .light {
-  background-color: tan;
+  background-color: #d2b48c;
+}
+
+.light:hover {
+  background-color: #a18b6e;
 }
