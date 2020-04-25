@@ -1,11 +1,29 @@
+header {
+  background-color: #67FFCE;
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  position: fixed;
+}
 
+.header-text {
+  padding: 5px 0 5px 0;
+  font-weight: bold;
+}
 
-.content {
+.header-link {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.font {
   font-family: Arial, sans-serif;
+}
+.content {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px 100px;
+  padding-top: 40px;
 }
 
 .btn {
